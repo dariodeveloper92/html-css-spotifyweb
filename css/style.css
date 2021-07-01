@@ -28,9 +28,31 @@
 /* fine container */
 
 /* main */
-main {
-    
+.logo {
+    width: 300px;
+    height: 10%;
+    background-color: darkgray;
 }
+
+.main-nav-home {
+    width: 300px;
+    height: 25%;
+    background-color: darkorange;
+}
+
+.main-nav-playlist {
+    width: 300px;
+    height: 50%;
+    background-color: darkorchid;
+}
+
+.main-nav-bottom {
+    width: 300px;
+    height: 15%;
+    background-color: black;
+}
+
+
 /* fine main */
 
 /* footer */
