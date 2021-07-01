@@ -8,23 +8,29 @@
 .container-nav {
     height: calc(100vh - 100px);
     width: 300px;
-    background-color: blue;
+    background-color: black;
     float: left;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+
 }
 
 .container-main-right {
     height: calc(100vh - 100px);
     width: calc(100% - 300px);
-    background-color: chartreuse;
+    background-color: rgb(33, 186, 224);
     float: left;
 }
 
 .container-footer {
     width: 100%;
     height: 100px;
-    background-color: crimson;
+    background-color: gray;
     float: left;
     display: flex;
+    justify-content: space-between;
+    align-content: center;
 }
 /* fine container */
 
@@ -32,25 +38,25 @@
 .logo {
     width: 300px;
     height: 10%;
-    background-color: darkgray;
+    border: 10px solid rgb(0, 250, 83);
 }
 
 .main-nav-home {
     width: 300px;
     height: 25%;
-    background-color: darkorange;
+    border: 10px solid rgb(0, 250, 83);
 }
 
 .main-nav-playlist {
     width: 300px;
     height: 50%;
-    background-color: darkorchid;
+    border: 10px solid rgb(0, 250, 83);
 }
 
 .main-nav-bottom {
     width: 300px;
     height: 15%;
-    background-color: black;
+    border: 10px solid rgb(0, 250, 83);
 }
 
 /* fine main */
@@ -63,21 +69,18 @@ footer {
 .footer-left {
     height: 100%;
     width: 300px;
-    background-color: red;
-    justify-content: flex-start;
+    border: 10px solid white;
 }
 
 .footer-center {
     height: 100%;
     width: 60%;
-    background-color: yellow;
-    justify-content: center;
+    border: 10px solid white;
 }
 
 .footer-right {
     height: 100%;
     width: 300px;
-    background-color: darkmagenta;
-    justify-content: flex-end;
+    border: 10px solid white;
 }
 /* fine footer */
