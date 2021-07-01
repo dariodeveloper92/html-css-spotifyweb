@@ -13,6 +13,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-content: center;
+    color: white;
 
 }
 
@@ -88,3 +89,48 @@ footer {
     border: 10px solid white;
 }
 /* fine footer */
+
+/* common container nav */
+
+.logo-spotify {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.logo-home {
+    width: 15%;
+    height: 30%;
+    vertical-align: middle;
+}
+
+.main-nav-home a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 5px;
+}
+
+.main-nav-playlist a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 5px;
+}
+
+.main-nav-bottom a {
+    color: lightgray;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+h3 {
+    color: white;
+}
+
+.line {
+    border: 1px solid lightgray;
+    width: 90%;
+    margin: 10px;
+}
+/* fine common container nav */
