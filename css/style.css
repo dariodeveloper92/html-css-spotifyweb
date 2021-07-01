@@ -24,6 +24,7 @@
     height: 100px;
     background-color: crimson;
     float: left;
+    display: flex;
 }
 /* fine container */
 
@@ -52,11 +53,31 @@
     background-color: black;
 }
 
-
 /* fine main */
 
 /* footer */
 footer {
+    
+}
 
+.footer-left {
+    height: 100%;
+    width: 300px;
+    background-color: red;
+    justify-content: flex-start;
+}
+
+.footer-center {
+    height: 100%;
+    width: 60%;
+    background-color: yellow;
+    justify-content: center;
+}
+
+.footer-right {
+    height: 100%;
+    width: 300px;
+    background-color: darkmagenta;
+    justify-content: flex-end;
 }
 /* fine footer */
