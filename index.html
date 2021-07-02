@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>SpotifyWeb</title>
 </head>
 <body>
     <!-- wrapper -->
-    <div class="wrapper">
+    <div id="wrapper">
         <!-- main -->
         <main>
             <!-- container nav -->
-            <div class="container-nav">
+            <div class="container-nav float-left">
                 <!-- logo -->
                 <div class="logo">
                     <a href="#">
@@ -21,13 +25,20 @@
                     </a>
                 </div>
                 <!-- fine logo -->
+                <!-- mobile logo -->
+                <!-- <div class="logo">
+                    <a href="#">
+                        <img src="img/logo-small.svg" class="logo-mobile" alt="logo mobile">
+                    </a>
+                </div> -->
+                <!-- fine mobile logo -->
                 <!-- home -->
                 <div class="main-nav-home">
                     <nav>
                         <ul>
                             <li>
                                 <a href="#" ><img src="img/home.svg" class="logo-home" alt="logo home"></a>
-                                <a href="#">Home</a>
+                                <a href="#"><strong>Home</strong></a>
                             </li>
                             <li>
                                 <a href="#" ><img src="img/search.svg" class="logo-home" alt="logo search"></a>
@@ -43,31 +54,37 @@
                 <!-- fine home -->
                 <!-- playlist -->
                 <div class="main-nav-playlist">
-                    <h3>PLAYLIST</h3>
+                    <h3 class="playlist"><strong>PLAYLIST</strong></h3>
                     <nav>
                         <ul>
                             <li>
-                                <a href="#" ><img src="img/download.svg" class="logo-home" alt="logo playlist"></a>
+                                <a href="#"><i id="add" class="fas fa-plus-square"></i></a>
                                 <a href="#">Crea Playlist</a>
                             </li>
                             <li>
                                 <a href="#">Nome Playlist</a>  
                             </li>
+                            <br>
                             <li>
                                 <a href="#">Nome Playlist</a>  
                             </li>
+                            <br>
                             <li>
                                 <a href="#">Nome Playlist</a>  
                             </li>
+                            <br>
                             <li>
                                 <a href="#">Nome Playlist</a>  
                             </li>
+                            <br>
                             <li>
                                 <a href="#">Nome Playlist</a>  
                             </li>
+                            <br>
                             <li>
                                 <a href="#">Nome Playlist</a>  
                             </li>
+                            <br>
                             <li>
                                 <a href="#">Nome Playlist</a>  
                             </li>
@@ -77,30 +94,31 @@
                 <!-- fine playlist -->
                 <!-- main nav-bottom -->
                 <div class="main-nav-bottom">
-                    <a href="#" ><img src="img/download.svg" class="logo-home" alt="logo download"></a>
+                    <a href="#" ><img src="img/download.svg" class="logo-bottom" alt="logo download"></a>
                     <a href="#"> Installa app</a>
                     <hr class="line">
-                    <a href="#" ><img src="img/profile.svg" class="logo-home" alt="logo profilo">John Doe</a>
-                    <h3></h3>
+                    <a href="#" ><img src="img/profile.svg" class="logo-bottom" alt="logo profilo"><strong>John Doe</strong></a>
                 </div>
-                <div>
-                    
-                </div>
-                
                 <!-- fine main nav-bottom -->
             </div>
             <!-- fine container nav -->
             <!-- container main right -->
-            <div class="container-main-right"></div>
+            <div class="container-main-right float-left"></div>
             <!-- fine container main right -->
         </main>
         <!-- fine main -->
         <!-- footer -->
         <footer>
             <!-- container footer -->
-            <div class="container-footer">
+            <div class="container-footer float-left">
                 <!-- footer left -->
-                <div class="footer-left"></div>
+                <div class="footer-left">
+                    <ul>
+                        <li><a href="#" ><img src="img/sinister.jpeg" class="img-sinister" alt="img sinister"></a></li>
+                        <li><h3 class="title">Sinister</h3><h4 class="title-nome">Brano Nome</h4></li>
+                        <li class="icon"><i class="far fa-heart"></i><i class="far fa-folder"></i></li>
+                    </ul>
+                </div>
                 <!-- fine footer left -->
                 <!-- footer center -->
                 <div class="footer-center"></div>
