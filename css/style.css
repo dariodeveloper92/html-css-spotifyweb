@@ -34,6 +34,7 @@ body {
     height: 100%;
     width: calc(100% - 300px);
     background-color: #1A253A;
+    
 }
 
 .container-footer {
@@ -185,8 +186,71 @@ footer {
 }
 /* fine common container nav */
 
+/* container main right */
+.bar-top {
+    width: 100%;
+    height: 100px;
+    background-color:  #111825;
+}
+
+#upgrade {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px 5px;
+    font-size: 10px;
+    height: 100px;
+} 
+
+.btn-upgrade {
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.music-library-nav {
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.type-song {
+    font-size: 20px; 
+    margin: 0 10px;  
+}
+
+.subtitle-song {
+    font-size: 12px; 
+    margin: 0 10px; 
+}
+
+.img-library {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-library-center {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    left: 0;
+    margin: 0 10px;
+}
+
+.img-recently {
+    height: 170px;
+    vertical-align: middle;
+}
+/* fine container main right */
+
 /* container footer */
-/* -------- da sistemare - container footer--------  */
 .brano {
     display: flex;
     justify-content: space-around;
@@ -239,7 +303,6 @@ footer {
 .play {
     font-size: 30px;
 }
-/* -------- fine da sistemare - container footer --------  */
 /* fine container footer */
 
 /* media query */
