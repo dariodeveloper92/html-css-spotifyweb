@@ -56,11 +56,9 @@
                 <div class="main-nav-playlist">
                     <h3 class="playlist"><strong>PLAYLIST</strong></h3>
                     <nav>
-                        <ul>
-                            <li>
-                                <a href="#"><i id="add" class="fas fa-plus-square"></i></a>
-                                <a href="#">Crea Playlist</a>
-                            </li>
+                        <a href="#"><i id="add" class="fas fa-plus-square"></i></a>
+                        <a href="#">Crea Playlist</a>
+                        <ul class="lista-playlist">
                             <li>
                                 <a href="#">Nome Playlist</a>  
                             </li>
@@ -109,48 +107,110 @@
                         <a href="#" class="btn-upgrade">EFFETTUA L'UPGRADE</a>
                     </div>
                 </div>
-                <div class="music-library-nav">
-                    <nav class="float-left">
-                        <div  class="float-left"><a>IN EVIDENZA</a></div>
-                        <div  class="float-left"><a>PODCAST</a></div>
-                        <div  class="float-left"><a>CLASSIFICHE</a></div>    
-                        <div  class="float-left"><a>GENERI E MOOD</a></div>
-                        <div  class="float-left"><a>NUOVE USCITE</a></div> 
-                        <div  class="float-left"><a>SCOPRI</a></div>   
-                    </nav>
-                </div>
-                <div class="music-library">
-                    <h1 class="type-song">Recently played</h1>
-                    <br>
-                    <div class="img-library">
-                        <div class="float-left"><img src="img/metal_lifting.jpg" class="img-recently" alt="metal lifting"></div>
-                        <div class="float-left"><img src="img/stranger.jpeg" class="img-recently" alt="stranger"></div>
-                        <div class="float-left"><img src="img/aquietplace.jpeg" class="img-recently" alt="aquietplace"></div>
-                        <div class="float-left"><img src="img/split.jpeg" class="img-recently" alt="split"></div>
-                        <div class="float-left"><img src="img/cure.jpeg" class="img-recently" alt="cure"></div>
-                        <div class="float-left"><img src="img/sinister.jpeg" class="img-recently" alt="sinister"></div>
+                <div id="main-music">
+                    <!-- MUSIC LIBRARY NAV -->
+                    <div class="music-library-nav float-left">
+                        <nav>
+                            <ul>
+                                <li class="float-left"><a>IN EVIDENZA</a></li>
+                                <li class="float-left"><a>PODCAST</a></li>
+                                <li class="float-left"><a>CLASSIFICHE</a></li>
+                                <li class="float-left"><a>GENERI E MOOD</a></li>
+                                <li class="float-left"><a>NUOVE USCITE</a></li>
+                                <li class="float-left"><a>SCOPRI</a></li>
+                            </ul>
+                        </nav>
                     </div>
-                </div>
-                <br>
-                <div class="music-library">
-                    <h1 class="type-song">Creato per John Doe</h1>
-                    <br>
-                    <h3 class="subtitle-song">Più ascolti, più accurati saranno i suggerimenti.</h3>
-                    <br>
-                    <div class="img-library-center">
-                        <div class="float-left"><img src="img/radar.jpeg" class="img-recently" alt="radar"></div>
-                        <div class="float-left"><img src="img/mixdaily.jpeg" class="img-recently" alt="mixdaily"></div>
-                    </div>
-                </div>
-                <br>
-                <div class="music-library">
-                    <h1 class="type-song">Artisti più popolari</h1>
-                    <br>
-                    <h3 class="subtitle-song">Più ascolti, più accurati saranno i suggerimenti.</h3>
-                    <br>
-                    <div class="img-library-center">
-                        <div class="float-left"><img src="img/youg.jpeg" class="img-recently" alt="young"></div>
-                        <div class="float-left"><img src="img/einaudi.jpeg" class="img-recently" alt="einaudi"></div>
+                    <!-- FINE MUSIC LIBRARY NAV -->
+                    <!-- RECENTLY PLAYED -->
+                    <div class="music-library">
+                        <h1 class="type-song">Recently played</h1>
+                        <br>
+                        <div class="barra-superiore-heavy float-left">
+                            <div class="box">
+                                <img src="img/metal_lifting.jpg" class="img-recently" alt="metal lifting">
+                            </div>
+                            <h2 class="title-song">Heavy Metal</h2 class="title-song">
+                            <h3 class="subtitle-song">Subtitle</h3>
+                        </div>
+                        <div class="barra-superiore-stranger float-left">
+                            <div class="box">
+                                <img src="img/stranger.jpeg" class="img-recently" alt="stranger">
+                            </div>
+                            <h2 class="title-song">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h2 class="title-song">
+                            <h3 class="subtitle-song">Kyle Dixon & Michael Stein</h3>
+                        </div>
+                        <div class="barra-superiore-quiet float-left">
+                            <div class="box">
+                                <img src="img/aquietplace.jpeg" class="img-recently" alt="aquietplace">
+                            </div>
+                            <h2 class="title-song">A quiet place</h2 class="title-song">
+                            <h3 class="subtitle-song">Subtitle</h3>
+                        </div>
+                        <div class="barra-superiore-split float-left">
+                            <div class="box">
+                                <img src="img/split.jpeg" class="img-recently" alt="split">
+                            </div>
+                            <h2 class="title-song">Split</h2 class="title-song">
+                            <h3 class="subtitle-song">Subtitle</h3>
+                        </div>
+                        <div class="barra-superiore-wellness float-left">
+                            <div class="box">
+                                <img src="img/cure.jpeg" class="img-recently" alt="cure">
+                            </div>
+                            <h2 class="title-song">A cure for wellness</h2 class="title-song">
+                            <h3 class="subtitle-song">Subtitle</h3>
+                        </div>
+                        <div class="barra-superiore-sinister float-left">
+                            <div class="box">
+                                <img src="img/sinister.jpeg" class="img-recently" alt="sinister">
+                            </div>
+                            <h2 class="title-song">Sinister</h2 class="title-song">
+                            <h3 class="subtitle-song">Subtitle</h3>
+                        </div>
+                        <!-- FINE MUSIC LIBRARY NAV -->
+                        <br>
+                        <!-- LIBRARY JOHN -->
+                        <div class="music-library float-left">
+                            <h1 class="type-song">Creato per John Doe</h1>
+                            <br>
+                            <h3 class="subtitle-type">Più ascolti, più accurati saranno i suggerimenti.</h3>
+                            <br>
+                            <div class="barra-centrale-radar float-left">
+                                <div class="box">
+                                    <img src="img/radar.jpeg" class="img-recently" alt="radar">
+                                </div>
+                                <h2 class="title-song">Release Radar</h2 class="title-song">
+                            </div>
+                            <div class="barra-centrale-mix float-left">
+                                <div class="box">
+                                    <img src="img/mixdaily.jpeg" class="img-recently" alt="mixdaily">
+                                </div>
+                                <h2 class="title-song">Daily Mix 1</h2 class="title-song">
+                            </div>
+                        </div>
+                        <!-- FINE LIBRARY JOHN -->
+                        <br>
+                        <!-- ARTISTI POPOLARI -->
+                        <div class="music-library float-left">
+                            <h1 class="type-song">Artisti più popolari</h1>
+                            <br>
+                            <h3 class="subtitle-type">Più ascolti, più accurati saranno i suggerimenti.</h3>
+                            <br>
+                            <div class="barra-inferiore-lana float-left">
+                                <div class="box">
+                                    <img src="img/youg.jpeg" class="img-artist" alt="young">
+                                </div>
+                                <h2 class="title-song">Lana del Rey</h2 class="title-song">
+                            </div>
+                            <div class="barra-inferiore-einaudi float-left">
+                                <div class="box">
+                                    <img src="img/einaudi.jpeg" class="img-artist" alt="einaudi">
+                                </div>
+                                <h2 class="title-song">Ludovico Einaudi</h2 class="title-song">
+                            </div>
+                        </div>
+                        <!-- FINE ARTISTI POPOLARI -->
                     </div>
                 </div>
             </div>
