@@ -228,46 +228,17 @@ footer {
 }
 
 /* music library */
-.barra-superiore-heavy,
-.barra-superiore-stranger,
-.barra-superiore-quiet,
-.barra-superiore-split,
-.barra-superiore-wellness,
-.barra-superiore-sinister {
+.dischi {
     padding: 10px;
 }
 
-.barra-superiore-heavy img,
-.barra-superiore-stranger img, 
-.barra-superiore-quiet img,
-.barra-superiore-split img,
-.barra-superiore-wellness img,
-.barra-superiore-sinister img {
+.dischi img {
     object-fit: cover;
 }
 
-.box {
+.box-img,
+.box-play {
     width: 100%;
-}
-
-.barra-centrale-radar,
-.barra-centrale-mix {
-    padding: 10px;
-}
-
-.barra-centrale-radar img,
-.barra-centrale-mix img {
-    object-fit: cover;
-}
-
-.barra-inferiore-lana,
-.barra-inferiore-einaudi {
-    padding: 10px;
-}
-
-.barra-inferiore-lana img,
-.barra-inferiore-einaudi img {
-    object-fit: cover;
 }
 
 .music-library {
@@ -461,3 +432,24 @@ footer {
     } 
 }
 /* fine media query */
+
+/* hover dischi */
+    .box-img {
+        display: inline;
+    }
+
+    .box-play {
+        display: none;
+    }
+
+    .dischi:hover .box-img,
+    .dischi:hover .box-img {
+        display: inline;
+    }
+
+    .dischi:hover .box-play {
+        display: inline;
+        text-align: center;
+    }
+
+/* fine hover dischi */
