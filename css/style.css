@@ -62,6 +62,10 @@ main {
     height: 15%;
 }
 
+.main-nav-home nav a:hover {
+    border-bottom: 2px solid green;
+}
+
 .main-nav-playlist {
     width: 300px;
     padding: 10px;
@@ -338,8 +342,11 @@ footer {
     height: 50px;
     margin: 10px 25%;
     font-size: smaller;
-    border-bottom: 2px solid green;
 } 
+
+.music-library-nav a:hover {
+    border-bottom: 2px solid green;
+}
 
 .music-library-nav li a {
     padding: 10px;
