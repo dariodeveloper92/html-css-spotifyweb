@@ -358,12 +358,14 @@ footer {
     display: flex;
     justify-content: space-around;
     align-content: center;
+    
 }
 
 .brano-center-bottom {
     display: flex;
     justify-content: space-around;
     align-content: center;
+    margin: 0 25px;
 }
 
 .img-sinister {
@@ -380,12 +382,17 @@ footer {
     color: lightgray; 
 }
 
-.icon {
+.icon,
+.icon-left {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 30%;
     margin: 15px 0;
+}
+
+.icon-left {
+    width: 20%;
 }
 
 .icon-center {
@@ -398,6 +405,27 @@ footer {
 
 .play {
     font-size: 30px;
+}
+
+#progress-bar-center {
+    height: 8px;
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+}
+
+#progress-bar-right {
+    height: 8px;
+    background-color: white;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.progress {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 /* fine container footer */
 
