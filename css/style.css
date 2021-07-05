@@ -145,21 +145,21 @@ footer {
 }
 
 .main-nav-home a {
-    color: lightgray;
+    color: #868686;
     text-decoration: none;
     font-size: 13px;
     padding: 5px;
 }
 
 .main-nav-playlist a {
-    color: lightgray;
+    color: #868686;
     text-decoration: none;
     font-size: 17px;
     padding: 5px;
 }
 
 .main-nav-bottom a {
-    color: lightgray;
+    color: #868686;
     text-decoration: none;
     font-size: 15px;
 }
@@ -188,7 +188,7 @@ footer {
 
 .line {
     height: 2px;
-    background-color: lightgray;
+    background-color: #868686;
     border-radius: 10px;
     width: 87%;
     margin: 10px
@@ -274,7 +274,7 @@ footer {
     font-size: 8px; 
     margin: 0 10px;
     vertical-align: middle;
-    color: lightgray;
+    color: #868686;
 }
 
 .subtitle-song {
@@ -284,7 +284,7 @@ footer {
     align-items: center;
     margin: 10px 0;
     vertical-align: middle;
-    color: lightgray;
+    color: #868686;
 }
 
 .img-library {
@@ -335,7 +335,7 @@ footer {
 .music-library-nav li a {
     padding: 10px;
     text-decoration: none;
-    color: lightgray;
+    color: #868686;
 }
 /* fine music library nav */
 /* fine container main right */
@@ -372,11 +372,11 @@ footer {
 }
 
 .title-nome,
-.icon {
-    color: lightgray; 
+.icon-right {
+    color: #868686; 
 }
 
-.icon,
+.icon-right,
 .icon-left {
     display: flex;
     justify-content: space-around;
@@ -387,7 +387,7 @@ footer {
 
 .icon-left {
     width: 20%;
-    color: lightgray;
+    color: #868686;
 }
 
 .icon-center {
@@ -404,14 +404,14 @@ footer {
 
 #progress-bar-center {
     height: 8px;
-    background-color: lightgray;
+    background-color: #868686;
     border-radius: 10px;
     width: 400px;
 }
 
 #progress-bar-right {
     height: 8px;
-    background-color: lightgray;
+    background-color: #868686;
     border-radius: 10px;
     width: 200px;
 }
@@ -468,6 +468,21 @@ footer {
     transform: scale(2);
 }
 /* fine hover upgrade */
+
+/* hover progress bar */
+.logo-spotify:hover,
+#progress-bar-center:hover,
+#progress-bar-right:hover {
+    background-color: green;
+}
+/* fine hover progress bar */
+
+/* hover icon */
+.icon-left:hover,
+.icon-right:hover {
+    color: white;
+}
+/* fine hover icon */
 
 /* hover dischi */
 .box-img {
