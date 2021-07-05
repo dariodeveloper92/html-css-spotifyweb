@@ -348,9 +348,12 @@ footer {
     border-bottom: 2px solid green;
 }
 
+.music-library-nav ul {
+    list-style: none;
+}
+
 .music-library-nav li a {
     padding: 10px;
-    list-style: none;
     text-decoration: none;
 }
 /* fine music library nav */
