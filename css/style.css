@@ -145,14 +145,14 @@ footer {
 }
 
 .main-nav-home a {
-    color: white;
+    color: lightgray;
     text-decoration: none;
     font-size: 13px;
     padding: 5px;
 }
 
 .main-nav-playlist a {
-    color: white;
+    color: lightgray;
     text-decoration: none;
     font-size: 17px;
     padding: 5px;
@@ -193,6 +193,7 @@ footer {
     width: 87%;
     margin: 10px
 }
+
 /* fine common container nav */
 
 /* container main right */
@@ -334,6 +335,7 @@ footer {
 .music-library-nav li a {
     padding: 10px;
     text-decoration: none;
+    color: lightgray;
 }
 /* fine music library nav */
 /* fine container main right */
@@ -385,6 +387,7 @@ footer {
 
 .icon-left {
     width: 20%;
+    color: lightgray;
 }
 
 .icon-center {
@@ -446,6 +449,25 @@ footer {
 }
 /* FINE FINO A 500PX */
 /* fine media query */
+
+/* hover scritte bianche */
+.main-nav-home a:hover,
+.main-nav-playlist a:hover,
+.main-nav-bottom a:hover,
+.music-library-nav a:hover {
+    color: white;
+}
+/* fine hover scritte bianche */
+
+/* hover upgrade */
+.btn-upgrade:hover {
+    transform: scale(1.2);
+}
+
+.play:hover {
+    transform: scale(2);
+}
+/* fine hover upgrade */
 
 /* hover dischi */
 .box-img {
