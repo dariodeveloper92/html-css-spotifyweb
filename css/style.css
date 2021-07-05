@@ -236,9 +236,18 @@ footer {
     object-fit: cover;
 }
 
-.box-img,
+.box-img {
+    width: 100%;
+    position: relative;
+}
+
 .box-play {
     width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
 
 .music-library {
@@ -413,6 +422,7 @@ footer {
 /* fine container footer */
 
 /* media query */
+/* FINO A 600PX */
 @media screen and (max-width: 600px) {
     main .container-nav {
         width: 50px;
@@ -422,34 +432,41 @@ footer {
         width: calc(100% - 50px);
     }
 }
+/* FINE FINO A 600PX */
 
+/* FINO A 500PX */
 @media screen and (max-width: 500px) {
     .mobile {
         background-image: url(../img/logo-small.svg);
         text-align: center;
         height: 50px;
-        background-color: red;
+        background-color: green;
+        background-blend-mode: color-dodge;
     } 
 }
+/* FINE FINO A 500PX */
 /* fine media query */
 
 /* hover dischi */
-    .box-img {
-        display: inline;
-    }
+.box-img {
+    display: inline;
+}
 
-    .box-play {
-        display: none;
-    }
+.box-play {
+    display: none;
+}
 
-    .dischi:hover .box-img,
-    .dischi:hover .box-img {
-        display: inline;
-    }
+.dischi:hover .box-img {
+    display: inline;
+}
 
-    .dischi:hover .box-play {
-        display: inline;
-        text-align: center;
-    }
+.box-img:hover .box-play {
+    display: inline;
+    text-align: center;
+}
+
+.disco {
+    font-size: xxx-large;
+}
 
 /* fine hover dischi */
