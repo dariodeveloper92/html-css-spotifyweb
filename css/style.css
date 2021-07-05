@@ -464,7 +464,7 @@ footer {
     transform: scale(1.2);
 }
 
-.play:hover {
+.btn-play:hover {
     transform: scale(2);
 }
 /* fine hover upgrade */
@@ -503,7 +503,7 @@ footer {
 }
 
 .disco {
-    font-size: xxx-large;
+    font-size: xx-large;
 }
 
 /* fine hover dischi */
