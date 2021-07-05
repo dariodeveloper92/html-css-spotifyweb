@@ -188,9 +188,11 @@ footer {
 }
 
 .line {
-    border: 1px solid lightgray;
-    width: 90%;
-    margin: 10px;
+    height: 2px;
+    background-color: lightgray;
+    border-radius: 10px;
+    width: 87%;
+    margin: 10px
 }
 /* fine common container nav */
 
@@ -336,6 +338,7 @@ footer {
     height: 50px;
     margin: 10px 25%;
     font-size: smaller;
+    border-bottom: 2px solid green;
 } 
 
 .music-library-nav li a {
@@ -365,7 +368,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-content: center;
-    margin: 0 25px;
+    margin: 0 65px;
 }
 
 .img-sinister {
@@ -409,14 +412,14 @@ footer {
 
 #progress-bar-center {
     height: 8px;
-    background-color: white;
+    background-color: lightgray;
     border-radius: 10px;
     width: 400px;
 }
 
 #progress-bar-right {
     height: 8px;
-    background-color: white;
+    background-color: lightgray;
     border-radius: 10px;
     width: 200px;
 }
