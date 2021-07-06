@@ -1,0 +1,25 @@
+/* Container main right */
+
+.main-music,
+.dischi,
+.box-img {
+    flex-shrink: 0;
+    width: calc((100% / 6) -15px);
+}
+
+/* FINO A 1100PX */
+
+@media screen and (max-width: 1100px) {
+    main .container-main-right {
+    width: calc(100% - 300px);
+    }
+}
+
+    .main-music,
+    .dischi,
+    .box-img {
+        flex-shrink: 0;
+        width: calc((100% / 4) -5px);
+    }
+}
+/* FINE FINO A 1100PX */

@@ -99,7 +99,7 @@ main {
     height: 100px;
     margin: 0 10px;
     position: relative;
-    bottom: 40%;
+    bottom: 45%;
 }
 /* fine main */
 
@@ -417,7 +417,7 @@ footer {
     height: 8px;
     background-color: #868686;
     border-radius: 10px;
-    width: 40%;
+    width: 35%;
 }
 
 .progress {
