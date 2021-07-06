@@ -1,25 +1,50 @@
 /* Container main right */
-
-.main-music,
-.dischi,
-.box-img {
-    flex-shrink: 0;
-    width: calc((100% / 6) -15px);
+#main-music {
+    flex-wrap: wrap;
 }
 
 /* FINO A 1100PX */
-
 @media screen and (max-width: 1100px) {
     main .container-main-right {
-    width: calc(100% - 300px);
+    width: calc((100% - 300px) - 10px);
     }
-}
 
-    .main-music,
+    
     .dischi,
     .box-img {
-        flex-shrink: 0;
-        width: calc((100% / 4) -5px);
+    width: calc(100% / 6);
     }
 }
 /* FINE FINO A 1100PX */
+
+/* FINO A 767px */
+@media screen and (max-width: 767px) {
+    main .container-main-right {
+    width: calc(100% - 300px);
+    }
+
+    
+    .dischi,
+    .box-img {
+    width: calc((100% / 4) - 5px;
+    }
+}
+/* FINO A 767px */
+
+/* FINO A 575px */
+@media screen and (max-width: 575px) {
+    main .container-main-right {
+    width: calc(100% - 300px);
+    }
+
+    
+    .dischi,
+    .box-img {
+    width: calc((100% / 2) - 2px);
+    }
+}
+/* FINO A 767px */
+
+
+
+
